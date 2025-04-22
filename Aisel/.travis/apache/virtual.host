@@ -11,6 +11,7 @@
                 AllowOverride All
                 Order allow,deny
                 Allow from all
+//fh
         </Directory>
     ErrorLog %TRAVIS_BUILD_DIR%/aisel.error.log
     CustomLog %TRAVIS_BUILD_DIR%/aisel.access.log combined
